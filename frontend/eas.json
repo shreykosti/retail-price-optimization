@@ -1,0 +1,41 @@
+{
+    "cli": {
+      "version": ">= 3.13.3"
+    },
+    "build": {
+      "preview": {
+        "android": {
+          "buildType": "apk"
+        }
+      },
+      "preview2": {
+        "android": {
+          "gradleCommand": ":app:assembleRelease"
+        }
+      },
+      "preview3": {
+        "developmentClient": true
+      },
+      "production": {
+        "android": {
+          "buildType": "apk"
+        },
+        "ios": {
+          "distribution": "store"
+        }
+      }
+    },
+    "submit": {
+      "production": {
+        "ios": {
+          "appleId": "YOUR_APPLE_ID",
+          "ascAppId": "YOUR_APP_STORE_CONNECT_APP_ID",
+          "appleTeamId": "YOUR_APPLE_TEAM_ID"
+        },
+        "android": {
+          "serviceAccountKeyPath": "./path-to-your-google-service-account.json",
+          "track": "production"
+        }
+      }
+    }
+  }

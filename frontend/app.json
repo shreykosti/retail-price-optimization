@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Price Predictor",
+    "slug": "price-predictor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.pricepredictor.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1b263b"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fb157ed7-cd84-4314-b211-0b6e459f0177"
+      }
+    },
+    "owner": "shreykosti"
+  }
+}
