@@ -57,17 +57,8 @@ npx expo start
 
 - **Python Libraries**: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, SciPy
 - **Environment**: Jupyter Notebook for interactive analysis
-
 - **Backend**:Flask for api render for deploying api
 - **Frontend**: React Ntive , Expo
-
-## folder structure
-
-
-## Results
-
-- **Outputs**: Optimal prices for products, revenue vs. price curves, and demand elasticity plots.
-- **Applications**: Retail pricing strategy, promotion planning, and competitive analysis.
 
 [apk](https://drive.google.com/file/d/1Nqf54N3cTvI-l_NViBIcijKMBjb95sDA/view?usp=sharing)
 [video](https://drive.google.com/file/d/1n8FLBiEcxhX9jbVYPlBzEv-655M1ZvC0/view?usp=sharing)
